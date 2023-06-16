@@ -7,6 +7,12 @@ title: HYPETYPE Metaverse Concert
 
 ##### เป็น Project Metaverse Concert ของ HYPETYPE ที่มี Bambam GOT7 มาเป็นศิลปิน
 
+### Tech Stack
+- React.js (Typescript)
+- Tailwind CSS
+- Framer Motion
+- Emotion CSS
+
 ### รูปภาพตัวอย่าง
 
 ![image](/image/projects/HYPETYPE-Metaverse-Concert/01.png)
