@@ -7,6 +7,14 @@ title: KU Tech
 
 ##### เป็น project เว็บไซต์ชมรม KU Tech
 
+### Tech Stack
+- Next.js (Typescipt)
+- NextAuth
+- tRPC
+- Tailwind CSS
+- NextUI
+- Ant Design
+
 ### รูปภาพตัวอย่าง
 
 ![image](/image/projects/ku-tech/01.png)

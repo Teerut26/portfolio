@@ -20,6 +20,8 @@ title: KU Table
 - tRPC
 - Tailwind CSS
 - DaisyUI
+- Material UI
+- Emotion CSS
 
 ### รูปภาพตัวอย่าง
 
