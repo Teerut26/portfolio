@@ -1,0 +1,29 @@
+---
+import DefaultLayout from '../layouts/DefaultLayout.astro'
+---
+
+<DefaultLayout title="Home">
+    <div class="container h-full flex justify-center items-center">
+        <dir class="text-gradient text-6xl">
+            Comming soon...
+        </dir>
+    </div>
+</DefaultLayout>
+
+
+
+<style lang="scss">
+    .text-gradient {
+        background: linear-gradient(315deg, var(--primary-200) 25%, var(--secondary-500));
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    :global(.darkmode .text-gradient) {
+        background: linear-gradient(315deg, var(--primary-200) 25%, var(--secondary-400));
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+</style>
