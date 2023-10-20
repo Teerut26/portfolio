@@ -1208,7 +1208,7 @@ astring@^1.8.0:
   resolved "https://registry.npmjs.org/astring/-/astring-1.8.6.tgz#2c9c157cf1739d67561c56ba896e6948f6b93731"
   integrity sha512-ISvCdHdlTDlH5IpxQJIex7BWBywFWgjJSVdwst+/iQCoEYnyOaQ95+X1JGshuBjGp6nxKUy1jMgE3zPqN7fQdg==
 
-astro-compress@1.1.28:
+astro-compress@^2.0.15:
   version "2.0.15"
   resolved "https://registry.npmjs.org/astro-compress/-/astro-compress-2.0.15.tgz#db2022339190cd4151c8081acf6d4b82993a25e6"
   integrity sha512-vO2C3+d5SLmJDlw+NyU63P9hN37Mavvac1qLNCdyZZXO08vYeuoIvDJFeLo3SblBlU1koHlrmAezEDYTzugx4w==
