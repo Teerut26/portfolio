@@ -9,3 +9,4 @@ title: Projects
 - #### - [HYPETYPE Metaverse Concert](/projects/HYPETYPE-Metaverse-Concert)
 - #### - [KU Table](/projects/ku-table)
 - #### - [KU Tech](/projects/ku-tech)
+- #### - [KU Hackathon](/projects/ku-hackathon)
