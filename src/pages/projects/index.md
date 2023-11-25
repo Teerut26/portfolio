@@ -10,3 +10,4 @@ title: Projects
 - #### - [KU Table](/projects/ku-table)
 - #### - [KU Tech](/projects/ku-tech)
 - #### - [KU Hackathon](/projects/ku-hackathon)
+- #### - [Loykrathong Online](/projects/loykrathong)
