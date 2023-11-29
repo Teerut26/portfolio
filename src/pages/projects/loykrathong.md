@@ -5,7 +5,7 @@ title: Loykrathong
 
 # Loykrathong
 
-##### เป็น project ที่ให้คนทั่วไปหรือคนในมหาวิทยาลัยเกษตรศาสตร์ สามารถลอยกระทง online ได้
+##### เป็น project ที่ให้คนทั่วไปหรือคนในมหาวิทยาลัยเกษตรศาสตร์ สามารถลอยกระทง online ได้ มีการสร้างกระทง 1,629 คน
 
 ### Tech Stack
 - Next.js (Typescipt)
@@ -25,3 +25,7 @@ title: Loykrathong
 ![image](/image/projects/loykrathong/04.webp)
 
 ![image](/image/projects/loykrathong/05.webp)
+
+## ยอดการเข้าใช้งาน
+
+![image](/image/projects/loykrathong/06.webp)
