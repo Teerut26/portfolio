@@ -20,6 +20,8 @@ title: KU Clubs
 
 ![image](/image/projects/ku-club/02.webp)
 
+![image](/image/projects/ku-club/07.webp)
+
 ![image](/image/projects/ku-club/03.webp)
 
 ![image](/image/projects/ku-club/04.webp)
