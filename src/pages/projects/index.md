@@ -11,3 +11,4 @@ title: Projects
 - #### - [KU Tech](/projects/ku-tech)
 - #### - [KU Hackathon](/projects/ku-hackathon)
 - #### - [Loykrathong Online](/projects/loykrathong)
+- #### - [KU Clubs](/projects/ku-clubs)
