@@ -1,0 +1,27 @@
+---
+import { StacksInterface } from '../layouts/MarkdownLayout.astro'
+
+interface Props {
+  data: StacksInterface
+}
+
+const { data } = Astro.props
+const { icon, name } = data
+const final_icon = icon.startsWith('https://')
+
+let getIcon = null
+if (!final_icon) {
+  const { default: svgData } = await import(`../assets/icons/${icon}.svg?raw`)
+  getIcon = svgData
+}
+---
+
+{
+  final_icon ? (
+    <img src={icon} class="h-[2rem] w-[2rem]" title={name} alt={name} />
+  ) : (
+    <div class="h-[2rem] w-full max-w-[2rem] flex justify-center items-center" title={name}>
+        <Fragment set:html={getIcon} />
+    </div>
+  )
+}

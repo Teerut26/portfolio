@@ -1,13 +1,25 @@
 ---
 layout: ../../layouts/MarkdownLayout.astro
-title: KU Table
+title: KU Get Reg
+preview: https://kugetreg.onrender.com
+stacks:
+  [
+    { name: Next.js, icon: next },
+    { name: NextAuth, icon: https://next-auth.js.org/img/logo/logo-sm.png },
+    { name: tRPC, icon: https://trpc.io/img/logo.svg },
+    { name: Tailwind CSS, icon: tailwindcss },
+    { name: Material UI, icon: mui },
+    { name: Emotion CSS, icon: https://emotion.sh/logo-96x96.png },
+    { name: Redis, icon: redis },
+  ]
 ---
 
-# KU Table
+# KU Get Reg
 
 ##### เป็น project ที่สามารถให้นิสิต ม.เกษตรศาสตร์ สามารถดูตารางเรียนของตัวเองได้ และสามารถจัดตารางเรียนได้ด้วยตัวเอง
 
 ### Feature
+
 - เปลี่ยน Theme ได้หลากหลาย
 - บันทึกรูปภาพของตารางได้
 - แชร์ link ตารางเป็น url ได้
@@ -15,6 +27,7 @@ title: KU Table
 - จัดตารางเรียนเองได้
 
 ### Tech Stack
+
 - Next.js (Typescipt)
 - NextAuth
 - tRPC
@@ -22,6 +35,7 @@ title: KU Table
 - DaisyUI
 - Material UI
 - Emotion CSS
+- Redis (Caching)
 
 ### รูปภาพตัวอย่าง
 

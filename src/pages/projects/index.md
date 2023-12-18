@@ -7,7 +7,7 @@ title: Projects
 # Projects
 
 - #### - [HYPETYPE Metaverse Concert](/projects/HYPETYPE-Metaverse-Concert)
-- #### - [KU Table](/projects/ku-table)
+- #### - [KU Get Reg](/projects/ku-getreg)
 - #### - [KU Tech](/projects/ku-tech)
 - #### - [KU Hackathon](/projects/ku-hackathon)
 - #### - [Loykrathong Online](/projects/loykrathong)

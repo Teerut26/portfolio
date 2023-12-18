@@ -1,6 +1,16 @@
 ---
 layout: ../../layouts/MarkdownLayout.astro
 title: Loykrathong
+preview: https://loykrathong.kutech.club
+stacks:
+  [
+    { name: Next.js, icon: next },
+    { name: tRPC, icon: https://trpc.io/img/logo.svg },
+    { name: Tailwind CSS, icon: tailwindcss },
+    { name: Ant Design, icon: antd },
+    { name: Pocketbase, icon: pocketbase },
+    { name: Emotion CSS, icon: https://emotion.sh/logo-96x96.png },
+  ]
 ---
 
 # Loykrathong

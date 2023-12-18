@@ -1,6 +1,13 @@
 ---
 layout: ../../layouts/MarkdownLayout.astro
 title: HYPETYPE Metaverse Concert
+stacks:
+  [
+    { name: React.js, icon: react_ts },
+    { name: Tailwind CSS, icon: tailwindcss },
+    { name: Framer Motion, icon: framer_motion },
+    { name: Emotion CSS, icon: https://emotion.sh/logo-96x96.png },
+  ]
 ---
 
 # HYPETYPE Metaverse Concert
@@ -8,6 +15,7 @@ title: HYPETYPE Metaverse Concert
 ##### เป็น Project Metaverse Concert ของ HYPETYPE ที่มี Bambam GOT7 มาเป็นศิลปิน
 
 ### Tech Stack
+
 - React.js (Typescript)
 - Tailwind CSS
 - Framer Motion

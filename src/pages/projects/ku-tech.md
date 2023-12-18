@@ -1,6 +1,16 @@
 ---
 layout: ../../layouts/MarkdownLayout.astro
 title: KU Tech
+preview: https://tech.nisit.ku.ac.th
+stacks:
+  [
+    { name: Next.js, icon: next },
+    { name: NextAuth, icon: https://next-auth.js.org/img/logo/logo-sm.png },
+    { name: tRPC, icon: https://trpc.io/img/logo.svg },
+    { name: Tailwind CSS, icon: tailwindcss },
+    { name: Ant Design, icon: antd },
+    { name: Framer Motion, icon: framer_motion },
+  ]
 ---
 
 # KU Tech
