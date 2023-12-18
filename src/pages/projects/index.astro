@@ -1,0 +1,17 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro'
+const projects = await Astro.glob('./*.md')
+---
+
+<PageLayout>
+  <div class="flex flex-col md:gap-10 gap-5">
+    {
+      projects.map((project) => (
+        <a class="cursor-pointer" href={project.url}>
+          <div class="text-2xl font-bold truncate">{project.frontmatter.title}</div>
+          <div class="text-black/50 dark:text-white/50">{project.frontmatter.description}</div>
+        </a>
+      ))
+    }
+  </div>
+</PageLayout>
