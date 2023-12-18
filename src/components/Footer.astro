@@ -1,15 +1,15 @@
 ---
-import CallToAction from './CallToAction.astro'
-
-const currentYear = new Date().getFullYear()
+import FooterCopy from './FooterCopy'
+const lastUpdated = new Date().toLocaleDateString('en-US')
 ---
 
 <footer>
   <!-- <CallToAction /> -->
   <section class="py-8">
     <div class="container">
+      <FooterCopy client:only />
       <p>
-        &copy; {currentYear} - Teerut Portfolio
+        (Last updated on {lastUpdated})
       </p>
     </div>
   </section>
