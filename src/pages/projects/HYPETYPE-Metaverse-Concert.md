@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
+layout: ../../layouts/ProjectLayout.astro
 title: HYPETYPE Metaverse Concert
 stacks:
   [

@@ -1,5 +1,6 @@
 ---
 import Icon from '../components/Icon.astro'
+import { Icon as IconAstro } from 'astro-icon'
 import DefaultLayout from './DefaultLayout.astro'
 import { ChevronLeftIcon } from 'lucide-react'
 
@@ -21,14 +22,34 @@ const { stacks, title, preview, github } = frontmatter
 
 <DefaultLayout title={title}>
   <div class="container">
+    <a
+      href="/projects"
+      style="text-decoration: none !important;"
+      class="flex w-fit items-center gap-1 rounded-lg border-0 p-2 hover:bg-slate-200 hover:dark:bg-white/20"
+    >
+      <IconAstro name="ic:baseline-arrow-back-ios" class="w-[1.2rem]" />
+      Back
+    </a>
     <div class="space-content my-5">
       {
-        preview && (
+        (preview || github) && (
           <div>
-            Preview :{' '}
-            <a target="_blank" href={preview}>
-              {preview}
-            </a>
+            {preview && (
+              <div class="truncate">
+                Preview :{' '}
+                <a target="_blank" href={preview}>
+                  {preview}
+                </a>
+              </div>
+            )}
+            {github && (
+              <div class="truncate">
+                Github :{' '}
+                <a target="_blank" href={github}>
+                  {github}
+                </a>
+              </div>
+            )}
           </div>
         )
       }

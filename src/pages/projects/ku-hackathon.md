@@ -1,7 +1,8 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
+layout: ../../layouts/ProjectLayout.astro
 title: KU Hackathon
 preview: https://hackathon.ku.ac.th
+github: https://github.com/ku-t3ch/ku-hackathon
 stacks:
   [
     { name: Next.js, icon: next },

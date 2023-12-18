@@ -1,7 +1,8 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
+layout: ../../layouts/ProjectLayout.astro
 title: KU Tech
 preview: https://tech.nisit.ku.ac.th
+github: https://github.com/ku-t3ch/ku-tech
 stacks:
   [
     { name: Next.js, icon: next },

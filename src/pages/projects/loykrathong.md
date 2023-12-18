@@ -1,7 +1,8 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
+layout: ../../layouts/ProjectLayout.astro
 title: Loykrathong
 preview: https://loykrathong.kutech.club
+github: https://github.com/ku-t3ch/loykrathong
 stacks:
   [
     { name: Next.js, icon: next },

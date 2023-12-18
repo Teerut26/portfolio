@@ -1,7 +1,8 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
+layout: ../../layouts/ProjectLayout.astro
 title: KU Get Reg
 preview: https://kugetreg.onrender.com
+github: https://github.com/Teerut26/ku-table-new
 stacks:
   [
     { name: Next.js, icon: next },
@@ -25,6 +26,8 @@ stacks:
 - แชร์ link ตารางเป็น url ได้
 - ปรับขนาดรูปภาพ (iPhone & iPad ใช้งานไม่ได้)
 - จัดตารางเรียนเองได้
+- ดูรายวิชา Genaral Education ได้
+- ดูว่าเรียน Genaral Education ครบหรือยัง
 
 ### Tech Stack
 
