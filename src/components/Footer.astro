@@ -1,6 +1,11 @@
 ---
 import FooterCopy from './FooterCopy'
-const lastUpdated = new Date().toLocaleDateString('en-US')
+const lastUpdated = new Date().toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+  timeZone: "Asia/Bangkok",
+})
 ---
 
 <footer>
@@ -9,7 +14,7 @@ const lastUpdated = new Date().toLocaleDateString('en-US')
     <div class="container">
       <FooterCopy client:only />
       <p>
-        (Last updated on {lastUpdated})
+        (Last updated:  {lastUpdated})
       </p>
     </div>
   </section>
