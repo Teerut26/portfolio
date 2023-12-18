@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/ProjectLayout.astro
 title: KU Tech
+description: เป็น project เว็บไซต์ชมรม KU Tech
 preview: https://tech.nisit.ku.ac.th
 github: https://github.com/ku-t3ch/ku-tech
 stacks:

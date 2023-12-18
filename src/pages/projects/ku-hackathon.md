@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/ProjectLayout.astro
 title: KU Hackathon
+description: เป็นว็บไซต์ Hackathon ของชมรม KU Tech
 preview: https://hackathon.ku.ac.th
 github: https://github.com/ku-t3ch/ku-hackathon
 stacks:

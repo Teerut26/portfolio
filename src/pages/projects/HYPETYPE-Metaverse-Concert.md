@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/ProjectLayout.astro
 title: HYPETYPE Metaverse Concert
+description: เป็น Project Metaverse Concert ของ HYPETYPE ที่มี Bambam GOT7 มาเป็นศิลปิน
 stacks:
   [
     { name: React.js, icon: react_ts },

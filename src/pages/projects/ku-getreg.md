@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/ProjectLayout.astro
 title: KU Get Reg
+description: เป็น project ที่สามารถให้นิสิต ม.เกษตรศาสตร์ สามารถดูตารางเรียนของตัวเองได้ และสามารถจัดตารางเรียนได้ด้วยตัวเอง
 preview: https://kugetreg.onrender.com
 github: https://github.com/Teerut26/ku-table-new
 stacks:
