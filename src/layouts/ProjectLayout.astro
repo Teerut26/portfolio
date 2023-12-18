@@ -7,6 +7,7 @@ import { ChevronLeftIcon } from 'lucide-react'
 interface FrontMatterProps {
   title: string
   description?: string
+  ogImage?: string
   preview?: string
   github?: string
   stacks?: StacksInterface[]
@@ -18,10 +19,10 @@ export interface StacksInterface {
 }
 
 const { frontmatter } = Astro.props as { frontmatter: FrontMatterProps }
-const { stacks, title, preview, github, description } = frontmatter
+const { stacks, title, preview, github, description, ogImage } = frontmatter
 ---
 
-<DefaultLayout title={title} description={description}>
+<DefaultLayout title={title} description={description} ogImage={ogImage}>
   <div class="container">
     <a
       href="/projects"

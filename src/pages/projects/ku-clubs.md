@@ -2,6 +2,7 @@
 layout: ../../layouts/ProjectLayout.astro
 title: KU Clubs
 description: เป็น project รวบรวมชมรมต่าง ๆ ในมหาวิทยาลัยเกษตรศาสตร์ ทุกวิทยาเขต ให้นิสิตสามารถเข้าไปดูรายละเอียดของชมรมต่าง ๆ ได้
+ogImage: /image/projects/ku-club/01.webp
 preview: https://club.tech.nisit.ku.ac.th
 github: https://github.com/ku-t3ch/ku-clubs
 stacks:

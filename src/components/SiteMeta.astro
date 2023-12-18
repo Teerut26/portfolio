@@ -1,5 +1,5 @@
 ---
-const { title, description, url, image, author } = Astro.props
+const { title, description, url, image, author, ogImage } = Astro.props
 
 let subtitle = 'Teerut Portfolio'
 ---
@@ -14,4 +14,5 @@ let subtitle = 'Teerut Portfolio'
 <meta property="og:description" content={description} />
 <meta property="og:type" content="website" />
 <meta property="og:url" content={url} />
+<meta property="og:image" content={Astro.site ? `${Astro.site}${ogImage}` : ogImage} />
 <title>{title} - {subtitle}</title>

@@ -10,6 +10,7 @@ const {
     url = 'https://teerut.me',
     image = '/social-preview-image.png',
     author = 'Teerut Srithongdee',
+    ogImage
 } = Astro.props
 ---
 
@@ -22,7 +23,7 @@ const {
         <!-- favicon -->
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-        <SiteMeta title={title} description={description.substring(0, 100)} author={author} url={url} />
+        <SiteMeta title={title} description={description.substring(0, 100)} author={author} url={url} ogImage={ogImage} />
     </head>
     <body>
         <Header />
