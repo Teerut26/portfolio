@@ -11,7 +11,7 @@ const final_icon = icon.startsWith('https://')
 
 let getIcon = null
 if (!final_icon) {
-  const { default: svgData } = await import(`../assets/icons/${icon}.svg?raw`)
+  const { default: svgData } = await import(`../assets/icons/${icon}.svg`)
   getIcon = svgData
 }
 ---
@@ -20,8 +20,8 @@ if (!final_icon) {
   final_icon ? (
     <img src={icon} class="h-[2rem] w-[2rem]" title={name} alt={name} />
   ) : (
-    <div class="h-[2rem] w-full max-w-[2rem] flex justify-center items-center" title={name}>
-        <Fragment set:html={getIcon} />
-    </div>
+    <>
+      <img src={getIcon} class="h-[2rem] w-[2rem]" title={name} alt={name} />
+    </>
   )
 }
