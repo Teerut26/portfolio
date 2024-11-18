@@ -3,7 +3,7 @@ layout: ../../layouts/ProjectLayout.astro
 title: Loykrathong
 description: เป็น project ที่ให้คนทั่วไปหรือคนในมหาวิทยาลัยเกษตรศาสตร์ สามารถลอยกระทง online ได้ มีการสร้างกระทง 1,629 คน
 ogImage: /image/projects/loykrathong/01.webp
-preview: https://loykrathong.kutech.club
+preview: https://festival.tech.nisit.ku.ac.th/loykrathong
 github: https://github.com/ku-t3ch/loykrathong
 stacks:
   [
