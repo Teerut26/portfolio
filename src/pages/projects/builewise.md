@@ -13,12 +13,13 @@ stacks:
     { name: Mantine, icon: mantine },
     { name: React Query, icon: https://tanstack.com/_build/assets/logo-color-600w-Bx4vtR8J.png },
     { name: Docker, icon: docker },
+    { name: Puppeteer, icon: puppeteer },
   ]
 ---
 
 # Buildwise
 
-##### โปรเจคสำหรับวางแผนโครงการรับเหมาก่อสร้าง ตั้งแต่สร้าง BOQ สร้าง Quotation โดยมีการเก็บข้อมูล Material Job Supplier Company Client เพื่อให้นำข้อมูลเดิมไปใช้ข้ามระบบได้ เป้าหมายเพื่อลดความผิดพลาดของมนุษย์และเพิ่มประสิทธิภาพการทำงานจากระบบที่เชื่อมข้อมูลการวางแผนทุกส่วนอย่างไร้รอยต่อ เป็นส่วนหนึ่งของวิชา `01418471 Software Design and Development`
+##### โปรเจคสำหรับวางแผนโครงการรับเหมาก่อสร้าง ตั้งแต่สร้าง BOQ สร้าง Quotation โดยมีการเก็บข้อมูล Material Job Supplier Company Client เพื่อให้นำข้อมูลเดิมไปใช้ข้ามระบบได้ เป้าหมายเพื่อลดความผิดพลาดของมนุษย์และเพิ่มประสิทธิภาพการทำงานจากระบบที่เชื่อมข้อมูลการวางแผนทุกส่วนอย่างไร้รอยต่อ เป็นส่วนหนึ่งของวิชา `01418321 System Analysis and Design`
 
 ### Tech Stack
 - Next.js (Typescipt)
@@ -28,6 +29,7 @@ stacks:
 - Mantine
 - React Query
 - Docker
+- Puppeteer
   
 ### รูปภาพตัวอย่าง
 
