@@ -5,14 +5,25 @@ const projects = await Astro.glob('./projects/*.md')
 ---
 
 <PrintLayout>
-    {JSON.stringify(projects[0].file)}
-  <div class="flex flex-col md:gap-10 gap-5">
+    <div class="text-center flex justify-center items-center">
+       <div class="flex flex-col gap-5 justify-center items-center">
+        <h1 class="text-5xl font-bold mt-10">Portfolio</h1>
+        <img src="https://teerut.com/profile_2.webp" class="rounded-full w-[10rem]" alt="">
+        <h1 class="text-3xl font-bold">Teerut Srithongdee</h1>
+        <h1 class="text-2xl font-bold">Computer Science Kasetsart University</h1>
+        <div class="flex flex-col gap-2">
+            <a href="https://resume.teerut.com" class="text-blue-500">Resume</a>
+            <a href="https://github.com/Teerut26" class="text-blue-500">Github</a>
+            <a href="https://linkedin.com/in/teerut26" class="text-blue-500">Linkedin</a>
+            <a href="https://teerut.com" class="text-blue-500">teerut.com</a>
+        </div>
+       </div>
+    </div>
+  <div class="flex flex-col md:gap-10 gap-5 page-break">
     {
       projects.map((project) => (
-        <div class="flex flex-col">
-          <a href={project.url} class="text-2xl font-bold truncate cursor-pointer">{project.frontmatter.title}</div>
-          <div class="text-black/70 dark:text-white/80">{project.frontmatter.description}</div>
-          <section set:html={project.content}></section> 
+        <div class="page-break">
+          <project.Content />
         </div>
       ))
     }

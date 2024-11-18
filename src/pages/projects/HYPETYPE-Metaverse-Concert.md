@@ -33,4 +33,4 @@ stacks:
 
 ![image](/image/projects/HYPETYPE-Metaverse-Concert/04.png)
 
-![image](/image/projects/HYPETYPE-Metaverse-Concert/05.png)
+<!-- ![image](/image/projects/HYPETYPE-Metaverse-Concert/05.png) -->

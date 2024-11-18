@@ -26,7 +26,7 @@ const { stacks, title, preview, github, description, ogImage } = frontmatter
     <a
       href="/projects"
       style="text-decoration: none !important;"
-      class="flex w-fit items-center gap-1 rounded-lg border-0 p-2 hover:bg-slate-200 hover:dark:bg-white/20"
+      class="flex w-fit items-center gap-1 print:hidden rounded-lg border-0 p-2 hover:bg-slate-200 hover:dark:bg-white/20"
     >
       <IconAstro name="ic:baseline-arrow-back-ios" class="w-[1.2rem]" />
       Back
@@ -34,7 +34,7 @@ const { stacks, title, preview, github, description, ogImage } = frontmatter
     <div class="space-content my-5">
       {
         (preview || github) && (
-          <div>
+          <div class="">
             {preview && (
               <div class="truncate">
                 Preview :{' '}
@@ -57,12 +57,12 @@ const { stacks, title, preview, github, description, ogImage } = frontmatter
       {
         stacks && (
           <>
-            <div class="flex flex-wrap items-center gap-2 md:gap-4">
+            <div class="flex flex-wrap items-center gap-2 md:gap-4 print:hidden">
               {stacks?.map((stack) => (
                 <Icon data={stack} />
               ))}
             </div>
-            <div class="h-[1px] w-full bg-black/10 dark:bg-white/10 md:h-[2px]" />
+            <div class="h-[1px] w-full bg-black/10 dark:bg-white/10 md:h-[2px] print:hidden" />
           </>
         )
       }
