@@ -1,0 +1,20 @@
+---
+import PrintLayout from "../layouts/PrintLayout.astro"
+
+const projects = await Astro.glob('./projects/*.md')
+---
+
+<PrintLayout>
+    {JSON.stringify(projects[0].file)}
+  <div class="flex flex-col md:gap-10 gap-5">
+    {
+      projects.map((project) => (
+        <div class="flex flex-col">
+          <a href={project.url} class="text-2xl font-bold truncate cursor-pointer">{project.frontmatter.title}</div>
+          <div class="text-black/70 dark:text-white/80">{project.frontmatter.description}</div>
+          <section set:html={project.content}></section> 
+        </div>
+      ))
+    }
+  </div>
+</PrintLayout>

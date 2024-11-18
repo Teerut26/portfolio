@@ -1,0 +1,106 @@
+---
+import '../assets/scss/globals.scss'
+import SiteMeta from '../components/SiteMeta.astro'
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+
+const {
+    title = 'Teerut Portfolio',
+    description = 'Teerut is a full-stack developer with a passion for building beautiful and functional websites and applications.',
+    url = 'https://teerut.me',
+    author = 'Teerut Srithongdee',
+    ogImage = "/profile_2.webp"
+} = Astro.props
+---
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <!-- favicon -->
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <script async src="https://eu.umami.is/script.js" data-website-id="81607876-b154-4ac9-aaf1-062fb84ff756"></script>
+        <script type="text/javascript">
+            (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "mgxddn1uou");
+        </script>
+        <SiteMeta title={title} description={description.substring(0, 100)} author={author} url={url} ogImage={ogImage} />
+    </head>
+    <body>
+        <main id="main-content">
+            <slot />
+        </main>
+        <style lang="scss" is:global>
+            // theme settings
+            :root {
+                --radius-small: 3px;
+                --radius-large: 6px;
+                --gap-default: 2rem;
+                --font-measure: 70ch;
+                --font-family-default: 'Open Sans', sans-serif;
+                --font-family-special: 'Open Sans', sans-serif;
+                // light theme
+                --font-color: var(--neutral-900);
+                --action-color: var(--primary-300);
+                --action-color-state: var(--primary-500);
+                --background: var(--neutral-100);
+                --primary-background: var(--primary-100);
+                --neutral-background: var(--neutral-200);
+            }
+
+            // dark color scheme overrides
+            .darkmode {
+                --font-color: var(--neutral-100);
+                --action-color: var(--secondary-100);
+                --action-color-state: var(--secondary-500);
+                --background: var(--dark-100);
+                --primary-background: var(--primary-500);
+                --neutral-background: var(--neutral-900);
+            }
+
+            // sticky footer on low content pages
+            html,
+            body {
+                height: 100%;
+                overflow-x: hidden;
+            }
+
+            body {
+                display: flex;
+                flex-direction: column;
+                color: var(--font-color);
+                background-color: var(--background);
+
+                main {
+                    flex: 1 0 auto;
+                }
+
+                footer {
+                    flex-shrink: 0;
+                }
+            }
+
+            pre {
+                padding: 1rem;
+                border-radius: 0.35rem;
+                border: 2px solid var(--action-color);
+            }
+
+            body .pagination a {
+                &:hover,
+                &:focus-visible {
+                    background-color: var(--action-color-state);
+
+                    svg path {
+                        stroke: white;
+                    }
+                }
+            }
+        </style>
+    </body>
+</html>
